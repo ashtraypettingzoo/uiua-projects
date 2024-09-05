@@ -1,3 +1,0 @@
-CLPS ← ÷πSC×ⁿ:2:-πOT # Low-pass (sinc) convolution
-
-LP ← Phs0.5 Max Cnv CLPS # Low pass [Value, Wave]
