@@ -156,7 +156,7 @@ ImportTable ← ↯O_S RI T◌◌°audio&frab # Import 256-wave table
 TableAverage ← R₁÷O/+↯O_S            # Table to wave [Table]
 TableIndex ← R₁⊡↧-1O↥0⁅:↯O_S:        # Table to wave [Index (0-255), Table]
 ImageToTable ← US
-GraphConv ← IS Graph A!(⬚0×↯S1)
+GraphConv ← Graph A!(⬚0×↯S1)
 GraphSpectrum ← IS⍢⊢(=1⧻)≡(⇌⊞≥÷SH⇡SH⊏SV÷FV↙÷2S⌵fft)▽=0⇡⌊÷GL O
 GraphSpectrumFull ← IS⍢⊢(=1⧻)≡(⇌⊞≥÷SH⇡SH÷FV⌵fft)▽=0⇡⌊÷GL O
 
