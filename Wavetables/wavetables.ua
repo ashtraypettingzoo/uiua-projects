@@ -1,7 +1,7 @@
 # Experimental!
 # Uiua 0.13.0-dev.2
 # https://github.com/ashtraypettingzoo/uiua-projects/blob/main/Wavetables/wavetables.ua
-# https://uiua.org/pad?src=0_13_0-dev_2__IyBFeHBlcmltZW50YWwhCiMgVWl1YSAwLjEzLjAtZGV2LjIKIyBodHRwczovL2dpdGh1Yi5jb20vYXNodHJheXBldHRpbmd6b28vdWl1YS1wcm9qZWN0cy9ibG9iL21haW4vV2F2ZXRhYmxlcy93YXZldGFibGVzLnVhCiMgW3VybF0KCiMgVE9ETzogaGlnaC9sb3cgcGFzcyBmaWx0ZXJzCiMgVE9ETzogSVIgaW1wb3J0aW5nCiMgVE9ETzogZml4IFN0ciAoc3RyZXRjaCkgYnV6emluZwojIFRPRE86IFNpZCAoc2lkZSBieSBzaWRlKQojIFRPRE86IFNocCAod2F2ZXNoYXBlKQojIFRPRE86IEVycm9yIGhhbmRsaW5nCiMgVE9ETzogQmF0Y2ggcHJvY2Vzc2luZwoKUyDihpAgMjA0OCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgU2FtcGxlcyBwZXIgb3NjaWxsYXRvcgpPIOKGkCAyNTYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBPc2NpbGxhdG9ycyBwZXIgdGFibGUKVCDihpAgw5dTIE8gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIFNhbXBsZXMgcGVyIHRhYmxlClNVIOKGkCDDtzIrMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBTaWduZWQgdG8gdW5zaWduZWQKVVMg4oaQIC0xw5cyICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIFVuc2lnbmVkIHRvIHNpZ25lZApPVSDihpAgw7fin5zih6FTICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIE9zY2lsbGF0b3IgYmFzZSwgdW5zaWduZWQgMC0xCk9UIOKGkCDDl8-ET1UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgT3NjaWxsYXRvciBiYXNlLCB0cmlnb25vbWV0cmljIDAtMs-AClIg4oaQIOKGr8KkVCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIE9zY2lsbGF0b3IgdG8gdGFibGUgKHJlcGVhdCkKVSDihpAg4o2lKOKKouKNieKGr-KKnzrin5zDtzLiirjip7spICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBPY3RhdmUgdXAgKGZvciBwbGF5YmFjayBvbmx5KQpHSCDihpAgMjAwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBHcmFwaCBoZWlnaHQKQyDihpAg4oalwq8x4oanMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBDbGFtcApTVyDihpAg4oqP4pe_4qe7LCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBTZWxlY3QgKHdyYXBwZWQpClNJIOKGkCAr4oqZw5fin5wt4oqD4oqDKFNX4oyKKShTV-KMiCkoLeKKuOKMiikgICAgICAgICAgICAgICAgICAgICMgU2VsZWN0IChpbnRlcnBvbGF0ZWQpClJJIOKGkCBTScOX4oehOsO3LOKnuywgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIFJlc2l6ZSAoaW50ZXJwb2xhdGVkKQpDUyDihpAg4oi_K863ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBDb3NpbmUKTlIg4oaQIOKGp-KKuOKGpSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgTmFOIHJlcGxhY2UKU0Mg4oaQIE5SMcO34p-c4oi_ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBTaW5jClZCIOKGkCDDty0x4p-c4oehTyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgVmFsdWUgYmFzZQpWUiDihpAgK-KKmcOXOi3in5w6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIFZhbHVlIHJhbmdlIFttaW4sIG1heCwgdmFsdWVzXQpHTCDihpAgMTYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBHSUYgbGVuZ3RoIChmcmFtZXMpClNIIOKGkCAyMDAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIFNwZWN0cnVtIGdyYXBoIGhlaWdodApGViDihpAgw7cy4oiaUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBGb3VyaWVyIG1heCB2YWx1ZQpTViDihpAgKzHijIrDl8O3MlPigb8yw7fin5zih6HDtzRTICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBTcGVjdHJ1bSBpbmRleCB2YWx1ZXMKSVMg4oaQIOKorCgmZ2lmczE1fCZpbXMpPTLip7vilrMuICAgICAgICAgICAgICAgICAgICAgICMgU2hvdyBpbWFnZSBvciBnaWYKU00g4oaQIOKHjOKIpyjiioIr4oq44oqD4ouF4oiYKMOX4oqZ4ouF4oqiKSniipkoOsKkwrDiioIpICAgICAgICAgICAgICAgICAgICMgU2NhbiBhZGQgKyBtdWx0aXBseQpNQiDihpAgw7c6MeKBvzE2IDIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBNaW5pbXVtIDE2LWJpdCB2YWx1ZQpGVCDihpAg4oqDKOKIoMKw4oSCKSjDt0ZW4oy1KeKGmSsxw7cyUyBmZnQgICAgICAgICAgICAgICAgICAgICMgRm91cmllciB0cmFuc2Zvcm0gW3BoYXNlLCBhbXAg4oaQIHdhdmVdCkZVIOKGkCDil4zCsOKEgsKwZmZ04oqCOuKNnMKw4oSCwq_ihpgx4oeM4oaYMS7ihILiioMow5fiiL8pKMOXQ1Mp4oqZKMOXRlYpICAgICAgIyBGb3VyaWVyIHVudHJhbnNmb3JtIFt3YXZlIOKGkCBwaGFzZSwgYW1wXQpEUyDihpAgfDEg4o2lKOKKgjoiLyIpPjDip7suICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBBZGQgc2xhc2ggdG8gZGlyZWN0b3J5IG5hbWUKQ0cg4oaQIOKNouKKoig9MeKnuyniiaEo4oeM4qyaMeKKnuKJoOKHoUdI4oGFw5ctMUdIIFNVIFUyQynilr09MOKHoeKMisO3R0wgTyAjIENyZWF0ZSBncmFwaApUcnVlIOKGkCAxICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBUcnVlIGNvbnN0YW50CkZhbHNlIOKGkCAwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIEZhbHNlIGNvbnN0YW50ClLigoAg4oaQIOKYhzAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBSZXJhbmsgemVybwpS4oKBIOKGkCDimIcxICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgUmVyYW5rIG9uZQpWISDihpAgUuKCgeKJoV4hUuKCgApWViEg4oaQIFLigoHiiaFeIVLigoDiiplS4oKAClZWQSEg4oaQIFLigoHiiaFeIVLigoDiiplS4oKA4oqZ4oqZUuKCgQpWQSEg4oaQIFLigoHiiaFeIVLigoDiiplS4oKBClZBQSEg4oaQIFLigoHiiaFeIVLigoDiiplS4oKB4oqZ4oqZUuKCgQpBISDihpAgUuKCgeKJoV4hUuKCgQpBQSEg4oaQIFLigoHiiaFeIVLigoHiiplS4oKBCgojIC0tLS0gQ29udm9sdXRpb25zCiMgSWRlbnRpdHkgKGRlbHRhKSBjb252b2x1dGlvbgpDSWQg4oaQIMKkwqQxCgojIC0tLS0gVGFibGUgdmFsdWVzCiMgVmFsdWVzIChsaW5lYXIpIFttaW4sIG1heF0KVmFsIOKGkCBWUuKKmeKKmShWQikKIyBWYWx1ZXMgKHBvd2VyIGluKSBbbWluLCBtYXgsIGJhc2VdClZhbFBJIOKGkCBWUuKKmeKKmSjigb86VkIpCiMgVmFsdWVzIChwb3dlciBvdXQpIFttaW4sIG1heCwgYmFzZV0KVmFsUE8g4oaQIOKHjFZhbFBJOgoKIyAtLS0tIEhlbHBlcnMKIyBSYW5kb20gKG1pbi1tYXgpIFtNaW4sIE1heF0KUm5kIOKGkCArw5fimoI64p-cLQojIFJhbmRvbSAobWluLW1heCkgW01pbiwgTWF4XQpSbmRJIOKGkCDijIpSbmQ6KzE64o2lOjwsLAoKIyAtLS0tIFdhdmUgT3BlcmF0aW9ucwojIFN1bSBbe1dhdmVzL1RhYmxlc31dClN1bSDihpAgwrDilqEvK-KNmlLigoEKIyBBdmVyYWdlIFt7V2F2ZXMvVGFibGVzfV0KQXZnIOKGkCBTdW3Dt-KKuOKnuwojIEFtcGxpZnkgW0Ftb3VudCwgV2F2ZS9UYWJsZV0KQW1wIOKGkCBWQSHDlwojIE1heGltaXplIFtXYXZlL1RhYmxlXQpNYXgg4oaQIEEhKOKXjOKNpeKfnMO34omgMC7ihqXiiKkv4oal4p-cwq8uKQojIFBoYXNlIHNoaWZ0IFtBbW91bnQsIFdhdmUvVGFibGVdClBocyDihpAgVkEhKOKGu-KBhcOX4qe7LCkKIyBQaGFzZSBzaGlmdCB0byB6ZXJvIHBvaW50IFtXYXZlL1RhYmxlXQpaZXIg4oaQIEEhKOKGu-KKly_ihqfijLUuLikKIyBCaXRjcnVzaCBbQW1vdW50ICgwLTEpLCBXYXZlL1RhYmxlXQpCaXQg4oaQIFZBIShVU-KGpzHDty0xOuKMisOXLFNVOuKBheKBvzoyKzHDlzE1LTox4oia4oanMeKGpTApCiMgUmV2ZXJzZSBbV2F2ZS9UYWJsZV0KUmV2IOKGkCBBIeKHjAojIEludmVydCBbV2F2ZS9UYWJsZV0KSW52IOKGkCBBIcKvCiMgTWlycm9yIDFzdCBoYWxmIFtXYXZlL1RhYmxlXQpNaXIg4oaQIEEhKOKKguKHjC7ihpnDtzJTKQojIEZhZGUgc3RhcnQgJiBlbmQgW0Ftb3VudCAoMC0xKSwgV2F2ZS9UYWJsZV0KRmFkIOKGkCBWQSEo4oeM4qyaMcOX4oeMOuKsmjHin5zDl8O34qe7LuKHoeKMisO3MsOXU-KGpTApCiMgQ3Jvc3NmYWRlIFtBbW91bnQgKDAtMSksIFN0YXJ0IFdhdmUvVGFibGUsIEVuZCBXYXZlL1RhYmxlXQpDcnMg4oaQIFZBQSEoK-KKmSjDly06MSk64p-cw5fiipk6KQojIFN0cmV0Y2ggW1RvICgwLTEpLCBGcm9tICgwLTEpLCBXYXZlL1RhYmxlXQpTdHIg4oaQIFZWQSEo4oqC4oqZUkk6LTpT4p-cUkniipniioPihpnihpjiiKko4oanLTFT4oalMeKBhcOXU-KGpzHihqUwKSkKIyBTaGlmdCB1cC9kb3duIFtBbW91bnQgKMKvMS0xKSwgV2F2ZS9UYWJsZV0KU2hmIOKGkCBWQSEoKykKIyBTbGljZSBbQW1vdW50ICgwLTEpLCBXYXZlL1RhYmxlXQpTbGMg4oaQIFZBIShSSSBT4oav4pmt4oGF4oalMcOXUykKIyBTcGVlZCB1cC9kb3duIFtPY3RhdmVzLCBXYXZlL1RhYmxlXQpTcGQg4oaQIFZBIShTbGPigb86MikKIyBTcGxpY2UgW0Ftb3VudCAoMC0xKSwgV2F2ZS9UYWJsZSAxLCBXYXZlL1RhYmxlIDJdClNwbCDihpAgVkFBISjiioLiipPihpnihpjin5w64oGFw5dT4oanMeKGpTApCiMgQ2xpcApDbHAg4oaQIEEhKEMpCiMgV3JhcCBbV2F2ZS9UYWJsZV0KV3JwIOKGkCBBIShVU-KXvytNQjFTVSkKIyBBbXBsdXR1ZGUgbW9kdWxhdGlvbiBbQW1wbGl0dWRlLCBNb2R1bGF0b3IsIENhcnJpZXJdCkFNIOKGkCBWQUEhKMOXKzHDtzLDly0xOikKIyBSaW5nIG1vZHVsYXRpb24gW01vZHVsYXRvciwgQ2Fycmllcl0KUk0g4oaQIEFBIcOXCiMgRnJlcXVlbmN5IG1vZHVsYXRpb24gW0FtcGxpdHVkZSwgTW9kdWxhdG9yLCBDYXJyaWVyXQpGTSDihpAgVkFBIShTScOXUytPVcOXKQojIENvbnZvbHZlIFtJbXB1bHNlLCBXYXZlL1RhYmxlXQpDbnYg4oaQIEFBISgvK8OX4o2J4per4oqZKOKGr-KZrSk6LTHiirgr4qe7LOKnu-KfnDopCiMgUGhhc2UgcmFuZG9taXplIFtBbW91bnQgKDAtMSksIFdhdmUvVGFibGVdClBociDihpAg4omhKEZVOuKKmSs6RlQpOuKJocOXUuKCgS3PgMOXz4TijaUo4oqC4pqCKSsxw7cyU1tdUuKCgOKKmVLigoEKIyBIYXJtb25pYyB3YXZlIGZpbHRlciBbQW1vdW50ICgwLTEpLCBGaWx0ZXIgV2F2ZS9UYWJsZSwgU291cmNlIFdhdmUvVGFibGVdCkh3ZiDihpAgVkFBIShGVeKKmcOXOisxw5fiipkoLTHil4ziiKlGVCkpCiMgRG93bnNhbXBsZSBbQW1vdW50ICgwLTEpLCBXYXZlL1RhYmxlXQpEd24g4oaQIFZBISgKICDijIjDtzpTLuKBheKGpTHigb86Misxw5ctMeKCmTJTLToxCiAg4oavwqRT4o2J4oav4p-cw7fin5wo4omhLyvihq_iioI6KQopCgojIC0tLS0gVGFibGUgb3BlcmF0aW9ucwojIENvbWIgZmlsdGVyIChmZWVkYmFjaykgW0FtcGxpdHVkZSwgSGFybW9uaWMsIFRhYmxlXQpUQ21iIOKGkCDihq9PX1MgU03iipko4qyaMOKGr-KKguKMiMO3OlQu4oGFw7c6U-KKmVIpCiMgQ29tYiBmaWx0ZXIgKGZlZWRmb3J3YXJkKSBbQW1wbGl0dWRlLCBIYXJtb25pYywgVGFibGVdClRDbWYg4oaQIOKGr09fUyvDl-KKmSjiioLihq86WzBdwqTin5zihpjijIrDtzrCr1PiipkoLlIpKQoKIyAtLS0tIFdhdmVmb3JtcwojIFNpbmUgd2F2ZSBbSGFybW9uaWNdClNpbiDihpAgViEo4oi_w5c6T1QpCiMgU2F3IHdhdmUgW0hhcm1vbmljXQpTYXcg4oaQIFYhKFVT4pe_McOXOk9VKQojIFRyaWFuZ2xlIHdhdmUgW0hhcm1vbmljXQpUcmkg4oaQIFYhKFVT4oy1VVPil78xKzAuMjXCr8OXOk9VKQojIFB1bHNlIHdhdmUgW0hhcm1vbmljLCBEdXR5XQpQdWwg4oaQIFZWIShVU-KJpFVTOlNhdykKIyBTcXVhcmUgd2F2ZSBbSGFybW9uaWNdClNxciDihpAgViEoUHVsOjAuNSkKIyBOb2lzZSB3YXZlIFtdCk5zdyDihpAgKOKYhzFVU-KNpSjiioLimoIpU1tdKQoKIyAtLS0tIFRhYmxlcwojIE5vaXNlIHRhYmxlIFtdCk5zdCDihpAgKOKNpSjiioJOc3cpT1tdKQoKIyAtLS0tIFNldHRpbmdzCkRlc2t0b3Ag4oaQIEZhbHNlCkluRGlyQXVkaW8g4oaQICJpbiIKSW5EaXJJbWFnZSDihpAgImluIgpPdXREaXJBdWRpbyDihpAgIm91dCIKT3V0RGlySW1hZ2Ug4oaQICJvdXQiCk91dERpckdyYXBoIOKGkCAib3V0IgpPdXREaXJTcGVjdHJ1bSDihpAgIm91dCIKT3V0U3VmZml4SW1hZ2Ug4oaQICIiCk91dFN1ZmZpeEdyYXBoIOKGkCAiZyIKT3V0U3VmZml4U3BlY3RydW0g4oaQICJzIgoKIyAtLS0tIFV0aWxpdHkKUHJpbnQg4oaQICZwZgpFeHBvcnQg4oaQICZhcCBD4pmtClRlc3Qg4oaQICZhcCBVM1IgQ-KZrQpHcmFwaCDihpAgSVMgQ0cKSW1hZ2Ug4oaQICZpbXPihq9PX1MgU1UgUiBD4pmtCkltcG9ydEltYWdlIOKGkCBSSSBP4omhUkkgU-KNnOKNieKJoSjDtzMvK-KGmTMp4peMwrBpbWcmZnJhYuKNpSjiioJEUyBJbkRpckltYWdlKURlc2t0b3AKSW1wb3J0V2F2ZSDihpAgUuKCgSBSSSBT4peM4peMwrBhdWRpbyZmcmFi4o2lKOKKgkRTIEluRGlyQXVkaW8pRGVza3RvcApJbXBvcnRUYWJsZSDihpAg4oavT19TIFJJIFTil4zil4zCsGF1ZGlvJmZyYWLijaUo4oqCRFMgSW5EaXJBdWRpbylEZXNrdG9wICMgSW1wb3J0IDI1Ni13YXZlIHRhYmxlClRhYmxlQXZlcmFnZSDihpAgUuKCgcO3Ty8r4oavT19TICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBUYWJsZSB0byB3YXZlIFtUYWJsZV0KVGFibGVJbmRleCDihpAgUuKCgeKKoeKGpy0xT-KGpTDigYU64oavT19TOiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBUYWJsZSB0byB3YXZlIFtJbmRleCAoMC0yNTUpLCBUYWJsZV0KSW1hZ2VUb1RhYmxlIOKGkCBVUwpHcmFwaENvbnYg4oaQIEdyYXBoIEEhKOKsmjDDl-KGr1MxKQpHcmFwaFNwZWN0cnVtIOKGkCBJU-KNouKKoig9MeKnuyniiaEo4oeM4oqe4omlw7dTSOKHoVNI4oqPU1bDt0ZW4oaZw7cyU-KMtWZmdCnilr09MOKHoeKMisO3R0wgTwpHcmFwaFNwZWN0cnVtRnVsbCDihpAgSVPijaLiiqIoPTHip7sp4omhKOKHjOKKnuKJpcO3U0jih6FTSMO3RlbijLVmZnQp4pa9PTDih6HijIrDt0dMIE8KV3JpdGVBdWRpbyDihpAgJmZ3YeKNpSjiioJEUyZmbWQuT3V0RGlyQXVkaW8pRGVza3RvcOKKguKKmSgiLndhdiJhdWRpbyJ3YXYiJmFzckPima0pCldyaXRlSW1hZ2Ug4oaQICgKICDiioLiipko4oqCT3V0U3VmZml4SW1hZ2UiLnBuZyJpbWcicG5nIuKItVsuLjoxXeKGr09fUyBTVSBSIEPima0pCiAgJmZ3YeKNpSjiioJEUyZmbWQuT3V0RGlySW1hZ2UpRGVza3RvcCkKV3JpdGVHcmFwaCDihpAgKAogIOKNpSjiioJEUyZmbWQuT3V0RGlyR3JhcGgpRGVza3RvcOKKgjpPdXRTdWZmaXhHcmFwaOKKmSg-M-Knu-KWsy7iiLVbLi46MV1DRykKICAmZndh4qisKOKKgjoiLnBuZyLiipkoaW1nInBuZyIpfOKKgjoiLmdpZiLiipkoZ2lmMTYpKToKKQpXcml0ZVNwZWN0cnVtIOKGkCAoCiAg4oqZKOKNouKKoig9MeKnuyniiaEo4oeM4oqe4omlw7dTSOKHoVNI4oqPU1bDt0ZW4oaZw7cyU-KMtWZmdCnilr09MOKHoeKMisO3R0wgTykKICDijaUo4oqCRFMmZm1kLk91dERpclNwZWN0cnVtKURlc2t0b3DiioI6T3V0U3VmZml4U3BlY3RydW3iipkoPjPip7vilrMu4oi1Wy4uOjFdKQogICZmd2HiqKwo4oqCOiIucG5nIuKKmShpbWcicG5nIil84oqCOiIuZ2lmIuKKmShnaWYxNikpOgopCldyaXRlU3BlY3RydW1GdWxsIOKGkCAoCiAg4oqZKOKNouKKoig9MeKnuyniiaEo4oeM4oqe4omlw7dTSOKHoVNIw7dGVuKMtWZmdCnilr09MOKHoeKMisO3R0wgTykKICDijaUo4oqCRFMmZm1kLk91dERpclNwZWN0cnVtKURlc2t0b3DiioI6T3V0U3VmZml4U3BlY3RydW3iipkoPjPip7vilrMu4oi1Wy4uOjFdKQogICZmd2HiqKwo4oqCOiIucG5nIuKKmShpbWcicG5nIil84oqCOiIuZ2lmIuKKmShnaWYxNikpOgopCkV4aXQg4oaQIOKNpSgmZXhpdDApRGVza3RvcAoKIyAtLS0tIFNhbXBsZSB3YXZlZm9ybXMvd2F2ZXRhYmxlcwpXYXZl4oKBIOKGkCBBdmd7U2luMyBBbXAwLjdTaW4yIFNpbjF9CldhdmXigoIg4oaQIEFNMC40U2luNyBBTTAuNVNpbjIgU2luMQpXYXZl4oKCIOKGkCBBdmd7U2F3MSAoUHVsIDIgMC4yKX0KV2F2ZeKChCDihpAgQml0MC43IEZNMC4xU2luNyBTaW4xClRibOKCgSDihpAgRk0oVmFsIDAgMSkgU2luMiBTaW4xClRibOKCgiDihpAgTWF4IEF2Z3tBbXAoVmFsIDAgMSlTaW4yIFNpbjF9ClRibOKCgyDihpAgQml0KFZhbCAwIDEpIENycyhWYWxQSSAwIDEgMikgU2luMSBTaW4zCgpQcmludCAiVGJs4oKDIgpUZXN0IFRibOKCgwpJbWFnZSBUYmzigoMKR3JhcGggVGJs4oKDCkdyYXBoU3BlY3RydW0gVGJs4oKDCgpFeGl0Cg==
+# [url]
 
 # TODO: high/low pass filters
 # TODO: IR importing
@@ -41,6 +41,8 @@ FT ← ⊃(∠°ℂ)(÷FV⌵)↙+1÷2S fft                    # Fourier transfor
 FU ← ◌°ℂ°fft⊂:⍜°ℂ¯↘1⇌↘1.ℂ⊃(×∿)(×CS)⊙(×FV)      # Fourier untransform [wave ← phase, amp]
 DS ← |1 ⍥(⊂:"/")>0⧻.                           # Add slash to directory name
 CG ← ⍢⊢(=1⧻)≡(⇌⬚1⊞≠⇡GH⁅×-1GH SU U2C)▽=0⇡⌊÷GL O # Create graph
+ST ← ⊂↯:@0↥0-:⊙(⧻.$"_")                        # Num to string w/ trailing zeroes
+CE ← ≍⬚@ ↯⊙:¤⧻.⊙⇌⇌                             # Check extension [ext, name]
 True ← 1                                       # True constant
 False ← 0                                      # False constant
 R₀ ← ☇0                                        # Rerank zero
@@ -147,6 +149,8 @@ Pul ← VV!(US≤US:Saw)
 Sqr ← V!(Pul:0.5)
 # Noise wave []
 Nsw ← (☇1US⍥(⊂⚂)S[])
+# Silent (empty) wave
+Sil ← R₁⬚0↯¤S[]
 
 # ---- Tables
 # Noise table []
@@ -165,38 +169,94 @@ OutSuffixGraph ← "g"
 OutSuffixSpectrum ← "s"
 
 # ---- Utility
+# Print string [String]
 Print ← &pf
+# Play wave or table [Wave/Table]
 Export ← &ap C♭
+# Play test tone of wave or table [Wave/Table]
 Test ← &ap U3R C♭
+# Display graph [Wave/Table]
 Graph ← IS CG
+# Display image [Wave/Table]
 Image ← &ims↯O_S SU R C♭
+# Read image from file [Filename]
 ImportImage ← RI O≡RI S⍜⍉≡(÷3/+↙3)◌°img&frab⍥(⊂DS InDirImage)Desktop
+# Read wave from file [Filename]
 ImportWave ← R₁ RI S◌◌°audio&frab⍥(⊂DS InDirAudio)Desktop
-ImportTable ← ↯O_S RI T◌◌°audio&frab⍥(⊂DS InDirAudio)Desktop # Import 256-wave table
-TableAverage ← R₁÷O/+↯O_S                                    # Table to wave [Table]
-TableIndex ← R₁⊡↧-1O↥0⁅:↯O_S:                                # Table to wave [Index (0-255), Table]
+# Read 256-wave table from file [Filename]
+ImportTable ← ↯O_S RI T◌◌°audio&frab⍥(⊂DS InDirAudio)Desktop
+# Table to wave [Table]
+TableAverage ← R₁÷O/+↯O_S
+# Table to wave [Index (0-255), Table]
+TableIndex ← R₁⊡↧-1O↥0⁅:↯O_S:
+# Convert image to table [Image]
 ImageToTable ← US
+# Display graph of impulse [Wave/Table]
 GraphConv ← Graph A!(⬚0×↯S1)
+# Display spectrum graph [Wave/Table]
 GraphSpectrum ← IS⍢⊢(=1⧻)≡(⇌⊞≥÷SH⇡SH⊏SV÷FV↙÷2S⌵fft)▽=0⇡⌊÷GL O
+# Display full spectrum graph [Wave/Table]
 GraphSpectrumFull ← IS⍢⊢(=1⧻)≡(⇌⊞≥÷SH⇡SH÷FV⌵fft)▽=0⇡⌊÷GL O
+# Save wave or table to file [Filename, Wave/Table]
 WriteAudio ← &fwa⍥(⊂DS&fmd.OutDirAudio)Desktop⊂⊙(".wav"audio"wav"&asrC♭)
+# Save image to file [Filename, Wave/Table]
 WriteImage ← (
   ⊂⊙(⊂OutSuffixImage".png"img"png"∵[..:1]↯O_S SU R C♭)
   &fwa⍥(⊂DS&fmd.OutDirImage)Desktop)
+# Save graph to file [Filename, Wave/Table]
 WriteGraph ← (
   ⍥(⊂DS&fmd.OutDirGraph)Desktop⊂:OutSuffixGraph⊙(>3⧻△.∵[..:1]CG)
   &fwa⨬(⊂:".png"⊙(img"png")|⊂:".gif"⊙(gif16)):
 )
+# Save spectrum graph to file [Filename, Wave/Table]
 WriteSpectrum ← (
   ⊙(⍢⊢(=1⧻)≡(⇌⊞≥÷SH⇡SH⊏SV÷FV↙÷2S⌵fft)▽=0⇡⌊÷GL O)
   ⍥(⊂DS&fmd.OutDirSpectrum)Desktop⊂:OutSuffixSpectrum⊙(>3⧻△.∵[..:1])
   &fwa⨬(⊂:".png"⊙(img"png")|⊂:".gif"⊙(gif16)):
 )
+# Save full spectrum graph to file [Filename, Wave/Table]
 WriteSpectrumFull ← (
   ⊙(⍢⊢(=1⧻)≡(⇌⊞≥÷SH⇡SH÷FV⌵fft)▽=0⇡⌊÷GL O)
   ⍥(⊂DS&fmd.OutDirSpectrum)Desktop⊂:OutSuffixSpectrum⊙(>3⧻△.∵[..:1])
   &fwa⨬(⊂:".png"⊙(img"png")|⊂:".gif"⊙(gif16)):
 )
+# Generates unused name for output
+NewName ← (
+  ⨬(⍚&fld{....."./"}
+  | {OutDirAudio OutDirImage.OutDirGraph.OutDirSpectrum}
+    ⍚(⍚↘⧻:⍥(▽∵&fif.)>1⧻.&fld.⊂"./"DS&fmd.)
+
+  )Desktop
+  ⍢(+1
+  | {⊂:".wav"⟜(⊂⊂:OutSuffixImage:".png")
+     ⟜(⊂⊂:OutSuffixGraph:".gif")⟜(⊂⊂:OutSuffixGraph:".png")
+     ⟜(⊂⊂:OutSuffixSpectrum:".gif")⟜(⊂⊂:OutSuffixSpectrum:".png")}ST5,,
+    /↥≡(∈°□:)
+
+  ) 0
+  ST5⊙◌
+)
+# Gets name of random .wav file [Subfolder]
+RandomAudioFile ← (
+  ⨬(&fld"./"|⍚↘⧻:▽∵&fif.&fld.⊂"./"DS&fmd.⊂InDirAudio)Desktop
+  ▽≡(CE".wav"°□).
+  ⨬(""◌|°□⊏⌊×⚂⧻.)>0⧻.
+)
+# Gets name of random .png file [Subfolder]
+RandomImageFile ← (
+  ⨬(&fld"./"|⍚↘⧻:▽∵&fif.&fld.⊂"./"DS&fmd.⊂InDirImage)Desktop
+  ▽≡(CE".png"°□).
+  ⨬(""◌|°□⊏⌊×⚂⧻.)>0⧻.
+)
+# Repeat function [Function, Num]
+Repeat! ← ⍥^!
+# Call random function (2 choices)
+DoRandom‼ ← ⨬^!^!⌊×2⚂
+# Call random function (3 choices)
+DoRandom‼! ← ⨬(^!|^!|^!)⌊×3⚂
+# Call random function (4 choices)
+DoRandom‼‼ ← ⨬(^!|^!|^!|^!)⌊×4⚂
+# Exit (use at end of script)
 Exit ← ⍥(&exit0)Desktop
 
 # ---- Sample waveforms/wavetables
