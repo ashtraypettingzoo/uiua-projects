@@ -54,16 +54,30 @@ VAA! ← R₁≡^!R₀⊙R₁⊙⊙R₁
 A! ← R₁≡^!R₁
 AA! ← R₁≡^!R₁⊙R₁
 
-# ---- Convolutions
-# Identity (delta) convolution
-CId ← ¤¤1
+# ---- Impulses
+# Identity (delta) impulse
+IId ← ¤¤1
+# Phase shifted delta impulse [Phase (0-1)]
+IPhs ← V!(↻:⬚0↯¤S IId⁅×S)
+# Low-pass (sinc) impulse [Harmonic]
+ILPS ← V!(÷/+.SC×-πOT)
+# High-pass (sinc) impulse [Harmonic]
+IHPS ← V!(-:IPhs0.5ILPS)
+# Low-pass (pulse) impulse [Harmonic]
+ILPP ← V!(↻⁅÷2+S:⬚0↯¤S↯¤,÷:1.⁅↧S÷:S↥1×2)
+# High-pass (pulse) impulse [Harmonic]
+IHPP ← V!(-:IPhs0.5ILPP)
+# Low-pass (exponential) impulse [Harmonic]
+ILPE ← V!(÷/+.ⁿ:e¯×OU×ₙeⁿ3 10)
+# High-pass (exponential) impulse [Harmonic]
+IHPE ← V!(-:IPhs0ILPE)
 
 # ---- Table values
-# Values (linear) [min, max]
+# Values (linear) [Min, Max]
 Val ← VR⊙⊙(VB)
-# Values (power in) [min, max, base]
+# Values (power in) [Min, Max, Base]
 ValPI ← VR⊙⊙(ⁿ:VB)
-# Values (power out) [min, max, base]
+# Values (power out) [Min, Max, Base]
 ValPO ← ⇌ValPI:
 
 # ---- Helpers
@@ -122,7 +136,7 @@ RM ← AA!×
 # Frequency modulation [Amplitude, Modulator, Carrier]
 FM ← VAA!(SI×S+OU×)
 # Convolve [Impulse, Wave/Table]
-Cnv ← AA!(/+×⍉◫⊙(↯♭):-1⊸+⧻,⧻⟜:)
+Cnv ← AA!(◌°ℂ°fft×∩fft×√S⬚0↯¤S)
 # Phase randomize [Amount (0-1), Wave/Table]
 Phr ← ≡(FU:⊙+:FT):≡×R₁-π×τ⍥(⊂⚂)+1÷2S[]R₀⊙R₁
 # Harmonic wave filter [Amount (0-1), Filter Wave/Table, Source Wave/Table]
@@ -132,6 +146,18 @@ Dwn ← VA!(
   ⌈÷:S.⁅↥1ⁿ:2+1×-1ₙ2S-:1
   ↯¤S⍉↯⟜÷⟜(≡/+↯⊂:)
 )
+# Low-pass (sinc) [Harmonic, Wave/Table]
+LPS ← Phs0.5VA!(Cnv ILPS)
+# High-pass (sinc) [Harmonic, Wave/Table]
+HPS ← Phs0.5VA!(Cnv IHPS)
+# Low-pass (pulse) [Harmonic, Wave/Table]
+LPP ← Phs0.5VA!(Cnv ILPP)
+# High-pass (pulse) [Harmonic, Wave/Table]
+HPP ← Phs0.5VA!(Cnv IHPP)
+# Low-pass (exponential) [Harmonic, Wave/Table]
+LPE ← VA!(Cnv ILPE)
+# High-pass (exponential) [Harmonic, Wave/Table]
+HPE ← VA!(Cnv IHPE)
 
 # ---- Table operations
 # Comb filter (feedback) [Amplitude, Harmonic, Wave/Table]
@@ -201,7 +227,7 @@ TableIndex ← R₁⊡↧-1O↥0⁅:↯O_S:
 # Convert image to table [Image]
 ImageToTable ← US
 # Display graph of impulse [Wave/Table]
-GraphConv ← Graph A!(⬚0×↯S1)
+GraphImpulse ← Graph A!(⬚0×↯S1)
 # Display spectrum graph [Wave/Table]
 GraphSpectrum ← IS⍢⊢(=1⧻)≡(⇌⊞≥÷SH⇡SH⊏SV÷FV↙÷2S⌵fft)▽=0⇡⌊÷GL O
 # Display full spectrum graph [Wave/Table]
